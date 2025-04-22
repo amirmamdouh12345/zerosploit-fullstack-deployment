@@ -1,9 +1,0 @@
-FROM ubuntu:latest
-
-WORKDIR /amir
-
-RUN  apt update -y
-
-
-RUN  apt install nginx -y
-
